@@ -1,3 +1,27 @@
-.h3 {
-    color : #3d8046;
+h3 {
+    /* Typographie */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police moderne et lisible */
+    font-size: 2.5em; /* Grande taille pour attirer l'attention */
+    font-weight: 700; /* Gras pour la mise en évidence */
+    color: #2c3e50; /* Couleur du texte (bleu-gris foncé, très lisible) */
+    
+    /* Centrage et Espacement */
+    text-align: center; /* Centre le texte dans son conteneur */
+    padding: 20px 0; /* Ajoute de l'espace au-dessus et en dessous du texte */
+    margin: 40px auto; /* Centre le bloc h3 lui-même horizontalement */
+
+    /* Mise en évidence Visuelle (le "plus" beau) */
+    display: inline-block; /* Permet d'appliquer une largeur et un fond autour du texte */
+    background-color: #ecf0f1; /* Fond gris très clair */
+    border-radius: 8px; /* Coins légèrement arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+    border-left: 5px solid #3498db; /* Une bordure colorée sur la gauche (bleu vif) */
+    padding: 15px 30px; /* Augmente le padding intérieur pour bien encadrer le texte */
+}
+
+/* Un petit effet au survol pour montrer l'interactivité */
+h3:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* L'ombre s'intensifie légèrement */
+    transform: translateY(-2px); /* Le titre "s'élève" un peu */
+    transition: all 0.3s ease-in-out; /* Assure une transition fluide de l'effet */
 }
